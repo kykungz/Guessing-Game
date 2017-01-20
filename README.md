@@ -1,2 +1,3 @@
 # Guessing Game
-@author Kongpon Charanwattanakit
+Kongpon Charanwattanakit
+5910546376
