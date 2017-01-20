@@ -1,3 +1,3 @@
 # Guessing Game
-Kongpon Charanwattanakit
-5910546376
+* Kongpon Charanwattanakit
+* 5910546376
