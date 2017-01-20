@@ -24,15 +24,16 @@ public class GuessingGame {
 		this.hint = "I'm thinking of a number between 1 and " + upperBound;
 		this.count = 0;
 	}
+
 	/**
 	 * Get secret number.
+	 * 
 	 * @return secret number
 	 */
 
 	public int getSecret() {
 		return secret;
 	}
-
 
 	/**
 	 * Create a random number between 1 and limit.
@@ -48,7 +49,7 @@ public class GuessingGame {
 	}
 
 	/**
-	 * 
+	 * Guess a number based on a user's input
 	 * @param number
 	 *            number to be evaluated
 	 * @return true if the number is correct<br>
@@ -81,6 +82,10 @@ public class GuessingGame {
 		return hint;
 	}
 
+	/**
+	 * Set the hint attribute.
+	 * @param hint is the hint to be set
+	 */
 	protected void setHint(String hint) {
 		this.hint = hint;
 	}
