@@ -1,7 +1,15 @@
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Kongpon C.
+ *
+ */
 public class GameConsole {
-	
+	/**
+	 * Play the game.
+	 * @param game to be played
+	 * 
+	 */
 	public void play(GuessingGame game) {
 		Scanner sc = new Scanner(System.in);
 		boolean isCorrect = false;
