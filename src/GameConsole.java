@@ -1,5 +1,7 @@
 import java.util.Scanner;
+
 /**
+ * Game Console to communicate with user.
  * 
  * @author Kongpon C.
  *
@@ -7,7 +9,9 @@ import java.util.Scanner;
 public class GameConsole {
 	/**
 	 * The play method plays a game using input from a user.
-	 * @param game is a GuessingGame object to be played
+	 * 
+	 * @param game
+	 *            is a GuessingGame object to be played
 	 * @return the secret number (answer)
 	 */
 	public int play(GuessingGame game) {

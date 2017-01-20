@@ -50,6 +50,7 @@ public class GuessingGame {
 
 	/**
 	 * Guess a number based on a user's input
+	 * 
 	 * @param number
 	 *            number to be evaluated
 	 * @return true if the number is correct<br>
@@ -84,7 +85,9 @@ public class GuessingGame {
 
 	/**
 	 * Set the hint attribute.
-	 * @param hint is the hint to be set
+	 * 
+	 * @param hint
+	 *            is the hint to be set
 	 */
 	protected void setHint(String hint) {
 		this.hint = hint;
