@@ -57,11 +57,11 @@ public class GuessingGame {
 	 *         false if the number is incorrect
 	 */
 	public boolean guess(int number) {
+		count++;
 		if (number > upperBound || number <= 0) {
 			hint = "Don't be ridiculous.";
 			return false;
 		}
-		count++;
 		if (number > this.secret) {
 			hint = "Sorry, your guess is too large.";
 			return false;
