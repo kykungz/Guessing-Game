@@ -26,16 +26,6 @@ public class GuessingGame {
 	}
 
 	/**
-	 * Get secret number.
-	 * 
-	 * @return secret number
-	 */
-
-	public int getSecret() {
-		return secret;
-	}
-
-	/**
 	 * Create a random number between 1 and limit.
 	 * 
 	 * @param limit
